@@ -1,24 +1,24 @@
-##Temas puntuales de la sección
+## Temas puntuales de la sección
 
 
 Aquí cubriremos varios temas como: 
 
-Uso y configuración de Express
+- Uso y configuración de Express
 
-Servir contenido estático
+- Servir contenido estático
 
-Servir contenido dinámico
+- Servir contenido dinámico
 
-Template engines
+- Template engines
 
-Handebars
+- Handebars
 
-Parciales
+- Parciales
 
-Variables
+- Variables
 
-Despliegues en Heroku
+- Despliegues en Heroku
 
-Hacer carpetas públicas en la web
+- Hacer carpetas públicas en la web
 
-Desplegar aplicaciones de Angular y React
+- Desplegar aplicaciones de Angular y React
