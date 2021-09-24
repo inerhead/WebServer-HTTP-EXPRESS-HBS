@@ -2,6 +2,7 @@ const express = require('express');
 var hbs = require('hbs');
 const app = express();
 
+const port = process.env.PORT;
 // Handlebars
 const dirArray = __dirname.split("\\");
 const dirRoot = dirArray.splice(0, dirArray.length - 1).join('\\');
@@ -41,4 +42,4 @@ app.get('*', function(req, res) {
     res.sendFile(`${dirRoot}/public/404.html`);
 });
 
-app.listen(3000);
+app.listen(port);
