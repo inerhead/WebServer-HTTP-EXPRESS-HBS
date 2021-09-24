@@ -1,7 +1,8 @@
-const express = require('express')
+const express = require('express');
+require('dotenv').config();
 const app = express();
 
-
+const port = process.env.PORT;
 
 
 app.use(express.static('./public-tarea'));
@@ -29,4 +30,4 @@ app.get('*', function(req, res) {
     res.sendFile(`${dir}/public/404.html`);
 });
 
-app.listen(3000);
+app.listen(port);
