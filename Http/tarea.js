@@ -1,17 +1,11 @@
 const express = require('express')
 const app = express();
 
-app.set('view engine', 'hbs');
+
 
 
 app.use(express.static('./public-tarea'));
 
-app.get('/handlebars', function(req, res) {
-    res.render('home', {
-        title: "Curso de node.js",
-        name: "Gustavo Ossío"
-    });
-});
 
 app.get('/', function(req, res) {
     res.send('Hello World');

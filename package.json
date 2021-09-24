@@ -7,7 +7,9 @@
         "http": "node ./Http/old-app.js",
         "express": "node ./Http/app.js",
         "auto": "nodemon ./Http/app.js",
-        "tarea": "nodemon ./Http/tarea.js"
+        "tarea": "nodemon ./Http/tarea.js",
+        "hbs": "nodemon ./Http/handebars.js",
+        "start": "node ./Http/handebars.js"
     },
     "keywords": [],
     "author": "",
