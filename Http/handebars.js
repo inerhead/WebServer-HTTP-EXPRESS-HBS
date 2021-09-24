@@ -1,8 +1,13 @@
 const express = require('express');
+require('dotenv').config();
 var hbs = require('hbs');
 const app = express();
 
 const port = process.env.PORT;
+
+
+
+
 // Handlebars
 const dirArray = __dirname.split("\\");
 const dirRoot = dirArray.splice(0, dirArray.length - 1).join('\\');
